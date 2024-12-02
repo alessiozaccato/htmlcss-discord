@@ -47,6 +47,8 @@ nav {
     color: white;
     line-height: 160%;
     padding-inline: 10%;
+    margin: 0 auto;
+    width:60%;
 }
 
 .hero > h1 {
@@ -66,6 +68,8 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding-inline:10%;
+    
+
 }
 
 article > h2 {
@@ -109,6 +113,8 @@ article > p{
     text-align: center;
     background-color: #f6f6f6;
     padding-inline:10%;
+    border-image-source:url("../imgs/wave.svg");
+
 }
    
 .main_bottom {
@@ -127,6 +133,10 @@ article > p{
 
 footer {
     background-color: #23272a;
+    
+}
+
+.footer_container {
     display: flex;
     gap: 4em;
     padding-inline: 10%;
@@ -166,10 +176,11 @@ footer h2:first-child {
     align-items: center;
     justify-content: space-between;
     padding-top: 10px;
-    padding-inline: 10%;
+    margin-inline: 10%;
     background-color: #23272a;
     border-top: solid 1px #637dd1;
 }
+
 
 
 
