@@ -1,0 +1,21 @@
+/* Evidenzia tutti gli elementi invisibili */
+* {
+    outline: 1px solid rgba(0, 0, 0, 0.2); /* Linea sottile per tutti gli elementi */
+}
+
+header, section, footer, main{
+    outline: 2px solid red; /* Evidenzia in rosso i principali contenitori */
+}
+
+body {
+    outline: 2px dashed blue; /* Linea specifica per il corpo */
+}
+
+footer {
+    outline: 2px dotted green; /* Linea per il footer */
+}
+
+
+
+
+
