@@ -1,66 +1,78 @@
 
 header {
-    background-color: blue;
-    height: 350px;
+    background-image: url("../imgs/jumbo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 nav {
-    background-color:red ;
-    height: 50px;
     display: flex;
     justify-content:space-around;
     align-items: center;
+    padding-top: 10px;
 }
+
+.button {
+    border-radius:999px;
+    padding: 10px;
+    border-style: none;
+}
+
+.white {
+    background-color: #ffffff;
+}
+
+.black {
+    background-color: #23272a;
+    color: white;
+}
+
+
 
 .center_header_nav {
-    flex-basis: calc( 90% / 5 );
     display: flex;
     justify-content: space-around;
+    gap: 1em;
+    color: white;
 }
 
-.container_hero {
-    display: flex;
-    height: 300px;
-    align-items: center;
-    justify-content: center;
-}
 
 .hero {
-    height: 150px;
     text-align: center;
+    color: white;
+    line-height: 160%;
+    padding-inline: 10%;
+}
 
+.hero > h1 {
+    margin-block: 1em;
 }
 
 .hero_buttons{
     display: flex;
     justify-content: center;
     gap: 1em;
+    margin-top: 1em;
+    padding-bottom:3em;
 }
 
 .right_layout {
     display: flex;
-    height: 300px;
     align-items: center;
     justify-content: center;
-    background-color: green;
     padding-inline:10%;
-    gap:1em;
 }
 
 .right_layout figure,
 .left_layout figure,
 .bottom_layout figure {
-    height: 150px;
-    background-color: violet;
-    flex-basis: 60%;
+    flex-basis: 10%;
 }
 
 .right_layout article,
 .left_layout article,
 .bottom_layout article{
-    height: 150px;
-    background-color: aqua;
-    flex-basis: 40%;
+    flex-basis: 80%;
 }
 
 .left_layout {
@@ -68,7 +80,7 @@ nav {
     height: 300px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     padding-inline:10%;
     gap:1em;
 }
