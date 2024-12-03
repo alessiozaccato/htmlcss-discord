@@ -92,13 +92,13 @@ article > p{
 .right_layout figure,
 .left_layout figure,
 .bottom_layout figure {
-    flex-basis: 50%;
+    flex-basis: 60%;
 }
 
 .right_layout article,
 .left_layout article,
 .bottom_layout article{
-    flex-basis: 50%;
+    flex-basis: 40%;
 }
 
 .left_layout {
